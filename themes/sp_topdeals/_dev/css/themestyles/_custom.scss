@@ -1,0 +1,63 @@
+/*******************************************************
+  Custom Style
+********************************************************/
+
+#authentication {
+    .page-header h1{
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        color: #222;
+        font-size: 24px;
+    }
+    #content{
+        #login-form{
+            .form-control, span.input-group-btn{
+                height: 35px;
+            }
+        }
+    }
+    [data-action="show-password"]{
+        background: $background;
+        &:hover{
+            background: lighten($background, 10%);
+        }
+    }
+    .form-footer .btn-primary{
+        background: $background;
+        &:hover{
+            background: lighten($background, 10%);
+        }
+    }
+}
+
+//-- Back-end -- Visible Blog
+.ps_back-office.page-sidebar.admindashboard{
+    #nav-sidebar{
+        overflow-y: scroll;
+    }
+}
+
+body#checkout{
+    #header .header-nav {
+        max-height: none;
+        padding: 30px 0;
+        border: none;
+        margin-bottom: 0;
+        box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+    }
+    section.checkout-step {
+        box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        border: 1px #ebebeb solid;
+        padding: 20px;
+    }
+    #footer{
+            box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+            color: #222;
+    }
+}
+
+#prices-drop #wrapper{
+    padding-top: 80px;
+}

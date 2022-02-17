@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>spextraslider</name>
+    <displayName><![CDATA[SP Extra Slider]]></displayName>
+    <version><![CDATA[1.0.1]]></version>
+    <description><![CDATA[Display products on extra slider.]]></description>
+    <author><![CDATA[MagenTech]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

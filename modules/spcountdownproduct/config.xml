@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>spcountdownproduct</name>
+    <displayName><![CDATA[SP Coundown Product]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[Display products in each slider categories with listing view.]]></description>
+    <author><![CDATA[MagenTech]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>spdeal</name>
+    <displayName><![CDATA[SP Deal]]></displayName>
+    <version><![CDATA[1.0.2]]></version>
+    <description><![CDATA[Display products on deal.]]></description>
+    <author><![CDATA[MagenTech]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

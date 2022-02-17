@@ -1,0 +1,468 @@
+/*******************************************************
+  Module Style
+********************************************************/
+//-- SP User Info
+.spuserinfo-block{
+	display: inline-block;
+	float: right;
+}
+.user-info {
+	line-height: 38px;
+	margin: 0 20px 0 0;
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both
+	}
+	a {
+		position: relative;
+		text-transform: capitalize;
+		color: #555;
+		font-size: 12px;
+	}
+}
+//-- SP Currency
+.spcurrency-block{
+    float: right;
+    display: inline-block;
+    position: relative;
+    padding: 0 0 0 15px;
+	cursor: pointer;
+	height: 38px;
+    line-height: 36px;
+}
+.currency-selector {
+	.sp-currency-title {
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			color: #555;
+			font-size: 12px;
+		}
+		span.text{
+			display: none;
+		}
+		i {
+			font-size: 12px;
+			margin: 0 3px 0;
+			float: none;
+			vertical-align: middle;
+		}
+	}
+	.dropdown-menu {
+			margin: 0;
+			background: #fff;
+			right: 0;
+			left: auto;
+			padding: 5px 0;
+			z-index: 9;
+			width: 55px;
+			min-width: 0;
+			border: none;
+			border-radius: 0 0 5px 5px;
+			box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+			-ms-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+			-moz-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+			-webkit-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+		li {
+			line-height: 35px;
+			a {
+				display:block;
+				text-transform: uppercase;
+				font-size: 12px;
+				padding: 0 15px;
+				font-weight:400;
+				color: #222;
+				i {
+					display: inline-block;
+					width: 25px;
+					height: 25px;
+					background: #cccccc;
+					color: #333;
+					border-radius: 50%;
+					text-align: center;
+					margin-right: 5px;
+					font-style: inherit;
+				}
+			}
+			&:hover a i {color: #fff;}
+		}
+	}
+	.sp-currency-select {padding: 2px 15px;height: 30px;border: 1px solid #eee;}
+}
+
+//-- SP Language
+.splanguage-block{
+	float: right;
+    display: inline-block;
+    position: relative;
+    padding: 0 20px;
+	margin: 0;
+	cursor: pointer;
+	height: 38px;
+    line-height: 36px;
+	&:before, &:after {
+		content: '';
+		background: #ebebeb;
+		width: 1px;
+		height: 10px;
+		position: absolute;
+		top: 13px;
+	}
+	&:before{
+		left: 0;
+		right: auto;
+	}
+	&:after{
+		right: 0;
+		left: auto;
+	}
+}
+
+.language-selector {
+	.sp-language-title {
+		cursor: pointer;
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			color: #555;
+			font-size: 12px;
+		}
+		span.text{
+			display: none;
+		}
+		.fa {
+			font-size: 12px;
+			margin: 0 3px 0;
+			float: none;
+			vertical-align: middle;
+		}
+	}
+	.dropdown-menu {
+		width: 95px;
+		padding: 5px 0;
+		margin: 0;
+		background: #fff;
+		left: 0px;
+		right: auto;
+		border: none;
+		z-index: 9;
+		min-width: 0;
+		border-radius: 0 0 5px 5px;
+		box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+		-ms-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.15);
+		li{
+			line-height: 35px;
+		}
+		.language-item {
+			display: block;
+			padding: 0 20px;
+			color: #555;
+			font-size: 12px;
+		}
+	}
+	.sp-language-select {padding: 2px 15px;height: 30px;border: 1px solid #eee;}
+}
+//-- SP Block Cart
+.spblockcart {
+    padding: 0;
+    cursor: pointer;
+	float: right;
+	display: inline-block;
+	margin: 0;
+	
+	.shopping_cart {
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		text-align: left;
+	}
+	.shopping-cart-title {
+		vertical-align: middle;
+		color: #222;
+		font-size: 14px;
+		font-weight: 600;
+	}
+	
+	.cart-content{
+		float: left;
+	}
+	
+	.cart-icon {
+		float: left;
+		width: 32px;
+		height: 40px;
+		text-align: center;
+		padding: 0;
+		margin-right: 8px;
+		color: #fff;
+		position: relative;
+		background: transparent url(../../assets/img/icon/icon-shopping.png) no-repeat center center;
+		font-size: 0;
+	}
+	
+	.cart-products-count {
+		line-height: 20px;
+		padding: 0;
+		color: $linkColor;
+		font-size: 12px;
+	}
+	
+	span.shopping-cart-title{
+		display: block;
+		vertical-align: middle;
+		color: #222;
+		font-size: 14px;
+		margin: 0;
+		font-weight: 600;
+		text-transform: capitalize;
+		line-height: 18px;
+	}
+	
+	span.cart-products-total{
+		display: none;
+		color: $linkColor;
+		font-weight: 400;
+		font-size: 12px;
+	}
+}
+
+//-- Layout 2
+.header_v2 {
+	position: relative;
+	.spblockcart{
+		.cart-products-count{
+			color: #222;
+		}
+		span.cart-products-total{
+			display: inline-block;
+		}
+		.cart-icon {
+			width: 40px;
+			margin-right: 8px;
+			border-radius: 3px;
+		}
+	}
+	
+	.spuserinfo-block{
+		position: fixed;
+		top: 210px;
+		right: 0;
+		margin: 0;
+		z-index: 10;
+		width: 40px;
+		line-height: 40px;
+		height: 40px;
+		border-radius: 3px 0 0 3px;
+		float: none;
+	}
+	.user-info{
+		margin: 0;
+		a{
+			position: relative;
+			display: block;
+			font-size: 0;
+			span{
+				text-indent: -99999px;
+				font-size: 0;
+			}
+			&:before{
+				content: '';
+				background-image: url("../img/icon/icon-user.png");
+				background-repeat: no-repeat;
+				background-position: center center;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
+			&.logout{
+				display: none;
+			}
+		}
+	}
+	
+	.splanguage-block, .spcurrency-block{
+		float: none;
+		display: block;
+		padding: 0;
+		margin: 0;
+		&:before, &:after{
+			display: none;
+		}
+	}
+	
+	.language-selector .dropdown-menu li, .currency-selector .dropdown-menu li{
+		line-height: 35px;
+		display: inline-block;
+		border: 1px solid #ebebeb;
+		padding: 0 8px;
+		margin: 0 3px 7px 0;
+		min-width: 65px;
+		&.current, &:hover{
+			border-color: $linkColor;
+		}
+	}
+	
+	.currency-selector .sp-currency-title , .language-selector .sp-language-title{
+		.fa {
+			display: none;
+		}
+		span{
+			display: none;
+			&.text{
+				display: block;
+				font-size: 12px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #222;
+				line-height: 20px;
+			}
+		}
+	}
+	
+	.currency-selector , .language-selector {
+		.dropdown-menu{
+			display: block;
+			position: relative;
+			top: auto;
+			left: auto;
+			width: 100%;
+			box-shadow: none;
+			li a{
+				padding: 0;
+			}
+		}
+	}
+}
+//-- Layout 3
+.header_v3 {
+	//--SP Currency
+	.spcurrency-block {
+		&:before{
+			display: none;
+		}
+	}
+	.currency-selector {
+		.sp-currency-title{
+			span, .fa{
+				color: #fff;
+			}
+		}
+		&:hover{
+			.sp-currency-title{
+				span, .fa{
+					color: #222;
+				}
+			}
+		}
+	}
+	
+	//--SP Language
+	.splanguage-block {
+		padding: 0 15px 0 0;
+		&:before, &:after{
+			display: none;
+		}
+	}
+	
+	.language-selector {
+		.sp-language-title{
+			span, .fa{
+				color: #fff;
+			}
+		}
+		&:hover{
+			.sp-language-title{
+				span, .fa{
+					color: #222;
+				}
+			}
+		}
+	}
+	
+	//-- SP Block Cart
+	.spblockcart {
+		float: none;
+		.cart-icon{
+			background: transparent url(../../assets/img/icon/icon-shopping-3.png) no-repeat center center;
+		}
+		span.shopping-cart-title{
+			display: inline-block;
+			position: relative;
+			padding: 0 15px 0 0;
+			&:before{
+				position: absolute;
+				content: "";
+				height: 2px;
+				width: 5px;
+				background: #fff;
+				top: 8px;
+				left: auto;
+				right: 4px;
+			}
+		}
+		.cart-content{
+			margin-top: 8px;
+		}
+		span.shopping-cart-title, span.cart-products-count{
+			color: #fff;
+		}
+	}
+	
+	//--SP User Info
+	.spuserinfo-block{
+		float: none;
+	}
+	.user-info{
+		margin: 0;
+		padding: 0 0 0 50px;
+		background: transparent url(../../assets/img/icon/icon-user-info.png) no-repeat left center;
+		a{
+			color: #fff;
+			font-size: 14px;
+			font-weight: bold;
+		}
+	}
+}
+
+//-- SP Custom HTML
+.gallery.spcustom_html{
+	h3{
+		color: #222;
+		font-weight: bold;
+		font-size: 14px;
+		text-transform: uppercase;
+		margin: 0 0 10px;
+		padding: 10px 0 10px;
+		position: relative;
+		font-size: 14px;
+		margin-bottom: 12px;
+		&:before {
+			content: "";
+			position: absolute;
+			height: 2px;
+			background: $background;
+			width: 40px;
+			left: 0;
+			right: auto;
+			top: auto;
+			bottom: -1px;
+		}
+	}
+	ul{
+		li{
+			display: inline-block;
+			margin:0 7px 10px 0;
+		}
+	}
+}

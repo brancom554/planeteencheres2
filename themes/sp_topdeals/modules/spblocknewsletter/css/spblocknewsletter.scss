@@ -1,0 +1,311 @@
+/*******************************************************
+  SP FooterLinks Module Style
+********************************************************/
+#newsletter_block_home {
+	margin: 0;
+	h3.title_block, form{display: inline-block;}
+    h3.title_block {
+		font-weight: 400;
+		font-size: 12px;
+		text-transform: uppercase;
+		margin: 3px 0 0 0;
+		vertical-align: middle;
+		color: #fff;
+		.fa{
+			font-size: 26px;
+			margin-right: 5px;
+		}
+		strong{
+			font-weight: 600;
+			font-size: 14px;
+		}
+	}
+    form {
+		margin: 0;
+		width: auto;
+		border-radius: 50px;
+		background: #fff;
+		vertical-align: middle;
+	}
+    .form-group {
+		margin: 0;
+		height: 40px;
+		padding: 0 60px 0 0;
+		position: relative;
+		.button {
+			width: auto ;
+			padding: 0 20px;
+			height: 100%;
+			border-radius: 0px 40px 40px 0;
+			position: absolute;
+			background: transparent;
+			text-transform: uppercase;
+			font-weight: bold;
+			right: 0;
+			top: 0;
+			text-align: center;
+			font-size: 12px;
+			color: #555;
+		}
+		.newsletter-input {
+			 height: 100%;
+			 border: none;
+			 background: transparent;
+			 color: #555;
+			 font-size: 12px;
+			 width: 100%;
+			 font-weight: normal;
+			 padding: 0 25px;
+		}
+		input::-webkit-input-placeholder {
+			 color: #8c8c8c;
+		}
+		input::-moz-placeholder {
+			 color: #8c8c8c;
+		}
+		input:-moz-placeholder {
+			 color: #8c8c8c;
+		}
+		input:-ms-input-placeholder { 
+			 color: #8c8c8c;
+		}
+    }
+}
+
+//-- New Letter 2
+#newsletter_block_home.new-letter-2{
+	width: 83%;
+	float: left;
+	h3.title_block{
+		color: #222;
+	}
+	form{
+		border: 1px solid #ebebeb;
+	}
+	.form-group{
+		.button{
+			color: #fff;
+			height: 41px;
+			top: -1px;
+			right: -1px;
+			bottom: -1px;
+		}
+	}
+}
+
+//-- Popup
+#newsletter_block_popup {margin: 0;position: absolute;top: 0;left: 0;right: 0;bottom: 0;z-index: 10;
+     &:after {content: "";position: absolute;left: 0;top: 0;height: 100%;width: 100%;background: #000;opacity: 0.67;}
+	.close {
+		display: block;
+		height: 31px;
+		width: 31px;
+		background-image: url(../../../assets/img/icon_close.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		position: absolute;
+		top: -31px;
+		right: 0;
+		opacity: 1;
+		cursor: pointer;
+	}
+     .block_content {background: #fff;width: 62.3%;height: 500px;padding: 15px;position: fixed;left: 20%;z-index: 11;top: 70px;
+          .content-inner {padding: 0 22px 0 417px;height: 100%;float: left;width: 100%;display: block;text-align: center;position: relative;
+               &:before {
+					content: "";
+					display: block;width: 385px;height: 100%;
+					background: url(../../../assets/img/bg_popup.jpg) no-repeat left center;
+					background-size: 100% 100%;
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+				h3.title {
+					font-size: 36px;
+					color: #222;
+					margin: 100px 0 15px;
+				}
+				p {font-size: 14px;color: #666;font-weight: normal;margin-bottom: 30px;line-height: 1.7em;}
+				form {margin: 0 0 30px;width: 100%;}
+				.form-group {margin: 0;height: 40px;padding: 0 120px 0 0;position: relative;background: #fff;
+					 .button {
+						width: 121px;
+						height: 100%;
+						position: absolute;
+						right: 0;
+						top: 0;
+						padding: 0;
+						text-align: center;
+						font-size: 12px;
+						text-transform: uppercase;
+						font-weight: bold;
+						color: #fff;
+					 }
+					 .newsletter-input {height: 100%;border: none;background: transparent;color: #b2b2b2;font-size: 13px;width: 100%;font-weight: 300;padding: 0 20px;border: solid 1px #cbcbcb;}
+				}
+				.msg {
+					margin-bottom: 25px;
+					.ckmsg{
+						vertical-align: middle;
+					}
+					.checker {
+						display: inline-block;
+						margin: 0 5px;
+					}
+					label {
+						display: inline-block;
+						font-weight: normal;
+						font-size: 12px;
+					}
+				}
+				.sharing-buttons {
+					border: none;
+					padding: 0;
+					margin: 0;
+					a {
+						display: inline-block;
+						height: 30px;
+						width: 30px;
+						border-radius: 50%;
+						text-align: center;
+						border: 1px solid #edecec;
+						margin: 0 3px;
+						line-height: 28px;
+						background: #fff;
+						color: #555;
+						font-size: 12px;
+						transition: all 0.3s ease 0s;
+						&:hover{
+							color: #fff;
+						}
+					}
+				}
+          }
+     }
+}
+
+	.footer-v3{
+		#newsletter_block_home.new-letter-2{
+			form{
+				width: 100%;
+			}
+			.form-group{
+				padding: 0 100px 0 0;
+				.button {
+					padding: 0 44px;
+				}
+			}
+		}
+	}
+
+//-- Responsive
+
+@media (min-width: 1500px) {
+	#newsletter_block_popup .block_content{
+		top: 150px;
+		width: 43.6%;
+		left: 28%;
+	}
+	
+	.footer-v3{
+		#newsletter_block_home.new-letter-2{
+			.text{
+				width: 40%;
+			}
+			.form{
+				width: 60%;
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	#newsletter_block_home.new-letter-2{
+		.text{
+			width: 60%;
+		}
+		.form{
+			width: 40%;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	div#newsletter_block_home{
+		h3.title_block {
+			font-size: 12px;
+		}
+    }
+	
+	#newsletter_block_home.new-letter-2{
+		width: 78%;
+	}
+	
+	//--Popup
+	#newsletter_block_popup .block_content{
+		width: 80%;
+		left: 10%;
+	}
+	
+	 //-- RTL
+	.lang-rtl{
+		div#newsletter_block_home{
+			h3.title_block {
+				margin: 0 0 20px;
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	#newsletter_block_home.new-letter-2{
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+		h3.title_block{
+			font-size: 12px;
+		}
+	}
+	
+	.footer-v3 #newsletter_block_home.new-letter-2 .form-group {
+		.button{
+			padding: 0 20px;
+		}
+		padding: 0 40px 0 0;
+	}
+	
+	//--Popup
+	#newsletter_block_popup .block_content{
+		width: 90%;
+		left: 5%;
+		.content-inner{
+			padding: 0 22px 0 315px;
+		}
+		.content-inner:before{
+			width: 300px;
+			background-size: auto;
+		}
+	}
+	
+}
+
+@media (max-width: 767px) {
+	div#newsletter_block_home{
+		text-align: center;
+		h3.title_block {
+			margin: 0 0 30px;
+		}
+    }
+	
+	#newsletter_block_popup {display: none;}
+	
+	//-- RTL
+	.lang-rtl{
+		div#newsletter_block_home{
+			h3.title_block {
+				margin: 0 0 20px;
+			}
+		}
+	}
+}
+

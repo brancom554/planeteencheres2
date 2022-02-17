@@ -1,0 +1,106 @@
+
+/* 5.Small devices Phones
+================================================== */
+@media (max-width: 480px){
+	
+	//-- Button Style
+	.btn, button, .button, input.button_mini,
+	input.button_small, input.button, input.button_large,
+	input.button_mini_disabled, input.button_small_disabled,
+	input.button_disabled, input.button_large_disabled,
+	input.exclusive_mini, input.exclusive_small,
+	input.exclusive, input.exclusive_large,
+	input.exclusive_mini_disabled, input.exclusive_small_disabled,
+	input.exclusive_disabled, input.exclusive_large_disabled,
+	a.button_mini, a.button_small, a.button, a.button_large, 
+	a.exclusive_mini, a.exclusive_small, a.exclusive, a.exclusive_large,
+	span.button_mini, span.button_small, span.button,
+	span.button_large, span.exclusive_mini,
+	span.exclusive_small, span.exclusive, span.exclusive_large,
+	span.exclusive_large_disabled {padding: 7px 10px;}
+	
+	
+	//-- Category Product
+	.category-products h3.title-block{
+		font-size: 24px;
+	}
+	
+	//-- Product Detail
+	#product{
+		 &.layout-full-width{
+			.product-page h1.product-name{
+				margin: 55px 0 15px;
+			}
+		 }
+	}
+
+	//RTL LANGUAGE
+}
+
+@media (max-width: 479px){
+	
+	//- Layout 1
+	.header_v1{
+		#header_search{
+			width: 75%;
+		}
+		.html-cart{
+			width: 25%;
+		}
+	}
+	
+	#header-cart{
+		margin: 0;
+	}
+	
+	//-- Block Cart
+	.spblockcart {
+		.cart-icon{
+			margin: 0;
+		}
+		.cart-content{
+			display: none;
+		}
+	}
+	
+	#js-product-list-top .showing{
+		margin: 10px 0;
+	}
+	
+	.product-page{
+		.product-actions .product-variants .product-variants-item{
+			display: block;
+			margin: 0 0 20px;
+			&.Color{
+				margin: 0 0 20px;
+			}
+		}
+		.product-actions .product-add-to-cart .add-to-cart{
+			margin: 0 1px;
+		}
+		.images-container.vertical-thumbnails{
+			.js-qv-mask{
+				width: 80px;
+			}
+			.product-cover{
+				width: calc(100% - 85px);
+			}
+		}
+	}
+	
+	//--RTL
+	.lang-rtl{
+		
+		div#header-cart{
+			margin: 0;
+		}
+		
+		//-- Block Cart
+		.spblockcart {
+			div.cart-icon{
+				margin: 0;
+			}
+		}
+		
+	}
+}

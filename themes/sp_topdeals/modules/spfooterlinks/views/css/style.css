@@ -1,0 +1,64 @@
+/*******************************************************
+  SP FooterLinks Module Style
+********************************************************/
+.spfooterlinks h4.title-footer {
+  color: #222;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding: 10px 0 10px;
+  position: relative;
+  border-bottom: 1px solid #ebebeb; }
+  .spfooterlinks h4.title-footer:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 40px;
+    left: 0;
+    right: auto;
+    top: auto;
+    bottom: -1px; }
+.spfooterlinks ul.links {
+  padding: 0; }
+  .spfooterlinks ul.links li a {
+    color: #555;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+    padding: 2px 13px;
+    position: relative; }
+    .spfooterlinks ul.links li a:before {
+      content: "";
+      font-family: fontawesome;
+      display: block;
+      position: absolute;
+      height: 3px;
+      width: 3px;
+      border-radius: 50%;
+      background: #555555;
+      top: 12px;
+      left: 0; }
+
+.footer-v2.footer-container .spfooterlinks {
+  margin-bottom: 7px; }
+  .footer-v2.footer-container .spfooterlinks h4.title-footer {
+    border-bottom: 1px solid #c2c6c6; }
+
+.footer-v3.footer-container .spfooterlinks h4.title-footer {
+  border-bottom: none;
+  font-size: 14px;
+  padding-bottom: 18px;
+  margin-bottom: 12px; }
+  .footer-v3.footer-container .spfooterlinks h4.title-footer:before {
+    height: 2px; }
+
+@media (min-width: 991px) {
+  .footer-v2.footer-container .spfooterlinks {
+    width: 20%; } }
+@media (max-width: 767px) {
+  div.spfooterlinks {
+    margin-bottom: 15px;
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,243 @@
+
+/* 5.Extra small devices Phones
+================================================== */
+@media (max-width: 767px){
+	.container{
+		max-width: none;
+		width: auto !important;
+	}
+	
+	div#blockcart-modal {
+		div.divide-right{
+			border: none;
+		}
+		.modal-body .cart-content{
+			padding: 0;
+			.btn{font-size: 15px;}
+		}
+	}
+	
+	.text-xs-center{
+		#menu-icon{
+			line-height: 45px;
+			cursor: pointer;
+		}
+		i {
+			font-size: 12px;
+			margin: -6px 3px 0;
+			float: none;
+			vertical-align: middle;
+		}
+	}
+	
+	#mobile_top_menu_wrapper{
+		position: absolute;
+		z-index: 3;
+		width: 100%;
+		background: #fff;
+		border: 1px solid #ddd;
+		top: 100%;
+		width: 160px;
+		left: auto;
+		right: 15px;
+	}
+	
+	#pagenotfound{
+		.page-not-found{
+			h3{
+				font-size:200px;
+			}
+			h4{
+				font-size:30px;
+			}
+			.pagenot-desc{
+				font-size:16px;
+			}
+		}
+	}
+	
+	//-- Product Listing
+	.products-selection{
+		margin-bottom: 30px;
+		border: solid 1px #ddd;
+		padding: 10px;
+		background: #f8f8f8;
+		border-radius: 5px;
+	}
+	
+	#js-product-list-top{
+		.pagination{
+			display: none;
+		}
+	}
+	
+	#js-product-list-bottom{
+		.product-sort{
+			display: none;
+		}
+		.filter-button{
+			display: none;
+		}
+		.pagination{
+			float: none;
+			width: 100%;
+		}
+	}
+	
+	//-- Product Page
+	.product-page .tabs .nav-tabs .nav-item{
+		margin-bottom: 15px;
+		.nav-link.active:before{
+			display: none;
+		}
+	}
+	
+	.products-selection{
+		margin-bottom: 30px;
+		border: solid 1px #ddd;
+		padding: 10px;
+		background: #f8f8f8;
+		border-radius: 5px;
+	}
+	
+	//-- Footer
+	.footer-container div#copyright{
+		.copyright{
+			margin: 0 0 20px;
+		}
+		.copyright, .footer-payment{
+			text-align: center;
+		}
+	}
+	
+	//-- Search Fillter
+	
+	#category #search_filter_toggler{
+		width: 100%;
+		padding: 4px 10px;
+		height: 42px;
+		border: 1px solid #ddd;
+		border-radius: 3px;
+		box-shadow: none;
+		font-size: 12px;
+		font-weight: 500;
+	}
+	
+	.box-right{
+		text-align: center;
+	}
+	
+	.spuserinfo-block, .splanguage-block, .spcurrency-block{
+		float: none;
+	}
+	
+	.splanguage-block{
+		margin: 0 15px;
+	}
+	
+	.spcurrency-block{
+		padding: 0;
+	}
+	
+	.currency-selector, .language-selector{
+		.dropdown-menu{
+			left: 0; right: auto;
+		}
+	}
+	
+	.header_v3{
+		.splanguage-block, .spcurrency-block{
+			float: right;
+		}
+		#header-logo{
+			text-align: center;
+		}
+		#header-cart, .user-info-layout-3{
+			padding: 20px 10px;
+			border: none;
+		}
+		.user-info{
+			padding: 0;
+			background: transparent;
+		}
+	}
+	
+	//-- RTL
+	.lang-rtl{
+		
+		div.spuserinfo-block, div.splanguage-block, div.spcurrency-block{
+			float: none;
+		}
+		
+		div.splanguage-block{
+			margin: 0 15px;
+		}
+	
+		div.spcurrency-block{
+			padding: 0;
+		}
+	
+		div.currency-selector, div.language-selector{
+			.dropdown-menu{
+				left: auto; right: 0;
+			}
+		}
+		
+		div#blockcart-modal {
+			div.divide-right{
+				border: none;
+			}
+		}
+		
+		#mobile_top_menu_wrapper{
+			left: 15px;
+			right: auto;
+		}
+		
+		div.user-info{
+			margin: 0;
+		}
+		
+		#_mobile_cart{
+			float: left !important;
+		}
+		
+		.header_v2 div#header-logo{
+			text-align: center;
+		}
+		
+		.header_v3 {
+			div.splanguage-block, div.spcurrency-block{
+				float: left;
+			}
+			div.splanguage-block{
+				margin: 0 15px;
+			}
+			div.user-info-layout-3{
+				border: none;
+			}
+		}
+	}
+	
+	
+	// -- RTL
+	.lang-rtl {
+		
+	}
+	
+}
+@media (max-width:543px){
+	#pagenotfound{
+		.page-not-found{
+			h3{
+				font-size:120px;
+			}
+			h4{
+				font-size:20px;
+			}
+			.pagenot-desc{
+				font-size:12px;
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+/*******************************************************
+    SP Banner Style
+********************************************************/
+.banner1 {
+  overflow: hidden;
+  margin-bottom: 14px; }
+  .banner1 .banner-img1 {
+    float: left;
+    width: calc(50% - 7px); }
+  .banner1 .banner-img2 {
+    float: right;
+    width: calc(50% - 7px); }
+
+.banner2 {
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .banner2 .banner-img1 {
+    float: left;
+    margin: 0 14px 0 0; }
+  .banner2 .banner-img2 {
+    float: left;
+    margin: 0 14px 0 0; }
+  .banner2 .banner-img3 {
+    float: left; }

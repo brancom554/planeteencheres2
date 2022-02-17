@@ -1,0 +1,48 @@
+.moduletable.spcustom_html {
+	clear: both;
+	direction: ltr;
+}
+
+.moduletable.spcustom_html em {
+	background: none repeat scroll 0 0 #6f6d6d;
+	border-radius: 100px;
+	color: #fff;
+	float: left;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	margin: 3px 10px 0 0;
+	text-align: center;
+	width: 60px;
+}
+
+.moduletable.spcustom_html .type-text {
+	overflow: hidden;
+}
+
+.moduletable.spcustom_html {
+	background-color: #f2f2f2;
+	border: 1px solid #bfc0c1;
+	box-sizing: content-box;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+.moduletable.spcustom_html .pretext {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.moduletable.spcustom_html .postext {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+.lang_ar .moduletable.spcustom_html {
+	float: right;
+}
+
+.lang_ar .moduletable.spcustom_html em {
+	float:right;
+	margin: 3px 0 0 10px;
+}

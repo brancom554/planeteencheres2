@@ -1,0 +1,159 @@
+.spmenu { position: relative; display: block; margin: 0; padding: 0;list-style: none; font-size: 13px; line-height: 20px; }
+
+
+.spmenu-list { 
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.spmenu-item,
+.spmenu-empty,
+.spmenu-placeholder { 
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    min-height: 20px;
+    padding: 0;
+    position: relative; 
+    border-radius: 2px;
+}
+.spmenu-content {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    height: 40px;
+    margin: 5px 0;
+    padding: 6px 10px 6px 40px;
+    text-decoration: none;
+}
+
+.spmenu-content h4,
+.spmenu-content .col-md-6 span{
+	line-height:26px;
+	margin:0;
+}
+
+.spmenu-content .col-md-6 {
+	padding-right:0;
+}
+
+.spmenu-content .col-md-6 .btn-group-action.pull-right{
+	margin-top:-3px;
+}
+.spmenu-list .spmenu-list { padding-left: 30px; }
+.spmenu-collapsed .spmenu-list { display: none; }
+
+.spmenu-handle {  
+    border: 1px solid #aaa;
+    border-radius: 4px 0 0 4px;
+    cursor: pointer;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 100%;
+    top: 0;
+    white-space: nowrap;
+    width: 40px;
+    height: 40px;
+	line-height:26px;
+}
+.spmenu-handle:before {
+    color: #333;
+    content: "≡";
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    top: 3px;
+    width: 100%;
+}
+.spmenu-handle:hover {
+    cursor: move;
+}
+
+.spmenu-item > button {margin-left: 30px;display: block; position: relative; cursor: pointer; float: left; width: 15px; height: 30px; margin: 3px 0; padding: 0; text-indent: -9999px; white-space: nowrap; overflow: hispmenuen; border: 0; background: transparent; font-size: 16px; line-height: 1; text-align: center; font-weight: bold; z-index: 9999;}
+.spmenu-item > button:before { content: '+'; display: block; position: absolute; width: 100%; text-align: center; text-indent: 0; }
+.spmenu-item > button[data-action="collapse"]:before { content: '-'; }
+
+.spmenu-placeholder,
+.spmenu-empty { margin: 5px 0; padding: 0; min-height: 30px; background: #f2fbff; border: 1px dashed #b6bcbf; box-sizing: border-box; -moz-box-sizing: border-box; }
+.spmenu-empty { border: 1px dashed #bbb; min-height: 100px; background-color: #e5e5e5;
+    background-image: -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                      -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:    -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                         -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:         linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                              linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.spmenu-dragel { position: absolute; pointer-events: none; z-index: 9999; }
+.spmenu-dragel > .spmenu-item .spmenu-handle { margin-top: 0; }
+.spmenu-dragel .spmenu-handle {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+            box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+
+.nestable-lists { display: block; clear: both; padding: 30px 0; width: 100%; border: 0; border-top: 2px solid #spmenud; border-bottom: 2px solid #spmenud; }
+
+#nestable-menu { padding: 0; margin: 20px 0; }
+
+#nestable-output,
+
+
+@media only screen and (min-width: 700px) { 
+
+    .spmenu { float: left; width: 48%; }
+    .spmenu + .spmenu { margin-left: 2%; }
+
+}
+
+.spmenu-hover > .spmenu-handle { background: #2ea8e5 !important; }
+
+.bootstrap a.icon-remove {color: red;cursor:pointer}
+.icon-check {cursor:pointer}
+.icon-check.disable{color: red;}
+.form_content{
+	padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #d3d8db;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.form_content .form-heading-action{
+	line-height: 0;
+    position: absolute;
+    right: 30px;
+	display: inline-flex;
+}
+
+.form_content h3 i{
+	margin-left: 15px;
+}
+
+#spmegamenu li .spmenu-content { background: #999; }
+#spmegamenu li ol  .spmenu-content {
+    background: #eee;
+	color:#333;
+}
+#spmegamenu-menu{
+	margin: 0px 3px;
+}
+
+.spmenu-list.spmenu-dragel .spmenu-content{
+	background: #ddd; 
+}

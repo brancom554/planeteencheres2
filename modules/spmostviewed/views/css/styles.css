@@ -1,0 +1,415 @@
+#f96a6e
+.moduletable {
+    clear: both;
+    direction: ltr;
+}
+
+
+.lang_ar .sp-mostviewed .control-button .preview {
+    right: inherit !important;
+    left: 0;
+}
+
+.lang_ar .sp-mostviewed .control-button .next {
+    right: inherit !important;
+    left: 30px;
+}
+
+.lang_ar .sp-mostviewed .page-button.middle .control-button .next {
+	right:0;
+	left: inherit;
+}
+
+.moduletable.displayTop {
+    padding: 25px 15px 15px 15px;
+}
+.spmostviewed-heading{
+	width:100%;
+	padding:5px;
+}
+.spmostviewed-heading h3 {
+    margin: 10px 0;
+	float:left;
+}
+
+
+
+.sp-mostviewed .quick-view-wrapper-mobile {
+    display: none;
+}
+
+@media all and (max-width: 320px) {
+
+    .moduletable .sp-mostviewed .spmostviewed-slider {
+        padding: 0 8px;
+    }
+
+    .sp-mostviewed .quick-view-wrapper-mobile {
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 479px) {
+
+    .moduletable .sp-mostviewed .spmostviewed-slider {
+        padding: 0 8px;
+    }
+
+    .sp-mostviewed .quick-view-wrapper-mobile {
+        display: block;
+    }
+
+   
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+    .sp-mostviewed .quick-view-wrapper-mobile {
+        display: block;
+    }
+
+    
+}
+
+@media all and (min-width: 780px) and (max-width: 1199px) {
+
+}
+
+@media all and (min-width: 1200px) {
+   
+}
+
+/*################################# End css Device #############################################*/
+
+.sp-mostviewed {
+    position: relative;
+}
+
+.sp-mostviewed.sp-preload {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sp-mostviewed.sp-preload .sp-loading {
+    position: relative;
+    z-index: 10;
+    background: url(../img/loading.gif) no-repeat scroll center center #FFF;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+	height: 100%;
+}
+
+.sp-mostviewed .spmostviewed-slider {
+    position: relative;
+    z-index: 8;
+}
+
+.sp-mostviewed .spmostviewed-slider .item {
+    background-size: 100% 100%;
+}
+
+.sp-mostviewed .spmostviewed-slider .item img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.sp-mostviewed .spmostviewed-slider .item img:hover {
+    cursor: pointer;
+}
+
+.
+
+/*#################################################### css for hearder #############################################*/
+.page-title-spmostviewed-slider {
+    color: #2E2C2D;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    /* 	float: left; */
+    overflow: hidden;
+    width: 75%;
+    margin: 10px 0 8px 0px;
+}
+.sp-mostviewed .spmostviewed-slider  .item-info .item-title {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.sp-mostviewed .spmostviewed-slider  .item-info .item-title a:hover{
+	color: #f96a6e;
+}
+/*############################################### css for botton #################################################*/
+.sp-mostviewed .owl-controls .owl-nav div{
+    bottom: auto;
+	position: absolute;	
+    font-size: 1em;
+	bottom: 50%;
+	left:10px;
+    outline: 0;
+    width: 52px;
+    height: 52px;
+    text-indent: -9999px;
+    z-index: 9999;
+    border: 2px solid #DDDDDD;
+	cursor: pointer;
+    line-height: 18px; }
+	
+    .sp-mostviewed .owl-controls .owl-nav div:before {
+      height: 48px;
+      width: 48px;
+      display: block;
+      background: #fff;
+      content: ".";
+      opacity: 0.14;
+      text-indent: -9999px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1; }
+    .sp-mostviewed .owl-controls .owl-nav div:after {
+      display: block;
+      width: 48px;
+      height: 48px;
+      color: #DDDDDD;
+      text-indent: 0;
+      text-align: center;
+      font-size: 21px;
+      font-family: "FontAwesome";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      padding: 16px 0 0 0; }
+    .sp-mostviewed .owl-controls .owl-nav div:hover:before {
+      background: #333;
+      opacity: 0.83; }
+	.sp-mostviewed .owl-controls .owl-nav  div.owl-next {
+		right: 10px;
+		left: auto;
+	}
+    .sp-mostviewed .owl-controls .owl-prev:after {
+      content: "\f053"; }
+	.sp-mostviewed .owl-controls .owl-next:after {
+    content: "\f054"; }
+
+.sp-mostviewed .item-review {
+    margin: 0 0 5px 0;
+    line-height: 22px;
+}
+
+.sp-mostviewed .item-review .ratings .rating-links,
+.sp-mostviewed .item-review .ratings {
+    margin: 0 0 0 0;
+}
+
+.sp-mostviewed .add-to-links {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.sp-mostviewed .ratings .rating-box {
+    margin-right: 5px;
+}
+
+.sp-mostviewed .item-review {
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.sp-mostviewed .item-btn-addtocart {
+    margin-bottom: 5px;
+}
+
+.sp-mostviewed .wishlist {
+    margin: 10px 0px;
+}
+
+.sp-mostviewed .compare {
+    margin-bottom: 10px;
+}
+
+.pretext-spmostviewed-slider {
+    margin: 10px 0px 10px 0px;
+}
+
+.postext-spmostviewed-slider {
+    margin: 10px 0px 10px 0px;
+}
+
+.sp-mostviewed .compare,
+.sp-mostviewed .wishlist {
+    margin: 5px 0 5px 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.sp-mostviewed .item-info .content_price {
+    margin-bottom: 10px;
+}
+
+.sp-mostviewed .item-info.item-spotlight .price.product-price {
+    line-height: 30px;
+    color: #FFF;
+}
+
+.sp-mostviewed .item-info.item-spotlight .old-price {
+    color: #DDD;
+}
+
+.sp-mostviewed a.quick-view:hover {
+    cursor: pointer;
+}
+
+.sp-mostviewed .spmostviewed-slider  .item-img {
+    padding: 9px;
+    position: relative;
+}
+
+.sp-mostviewed .spmostviewed-item .item{
+	position:relative;
+	margin: 10px;
+}
+.sp-mostviewed a.quick-view,.sp-mostviewed  .compare,.sp-mostviewed  .wishlist{
+    display: none;
+}
+
+.sp-mostviewed .spmostviewed-item .item:hover a.quick-view {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.82);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
+    color: #777676;
+    font: 700 13px/16px Arial, Helvetica, sans-serif;
+    height: 43px;
+    left: 50%;
+    margin: -21px 0 0 -53px;
+    padding: 13px 0 0;
+    position: absolute;
+    top: 45%;
+    width: 107px;
+    text-decoration: none;
+}
+
+.sp-mostviewed .spmostviewed-item .item:hover  .wishlist {
+    font: 700 13px/16px Arial, Helvetica, sans-serif;
+	 display: block;
+    color: #777676;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin: -21px 0 0 -53px;
+    padding: 13px 0 0;
+    background: rgba(255, 255, 255, 0.82);
+    width: 107px;
+    height: 43px;
+    text-align: center;
+    -moz-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+}
+.sp-mostviewed .spmostviewed-item .item:hover .compare {
+    font: 700 13px/16px Arial, Helvetica, sans-serif;
+	 display: block;
+    color: #777676;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -21px 0 0 -53px;
+    padding: 13px 0 0;
+    background: rgba(255, 255, 255, 0.82);
+    width: 107px;
+    height: 43px;
+    text-align: center;
+    -moz-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0 2px 8px;
+}
+
+.sp-mostviewed .quick-view-wrapper-mobile {
+    background-color: transparent;
+    bottom: 0;
+    height: 155px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 215px;
+    z-index: 2;
+}
+
+.sp-mostviewed .quick-view-wrapper-mobile a {
+    background-color: rgba(208, 208, 211, 0.57);
+    display: block;
+    height: 130px;
+    pointer-events: all;
+    position: relative;
+    right: -162px;
+    top: 80px;
+    transform: rotate(45deg);
+    width: 85px;
+    opacity: 0.5;
+}
+
+.sp-mostviewed .quick-view-wrapper-mobile a:hover {
+    background-color: rgba(125, 125, 125, 0.57);
+}
+
+.sp-mostviewed .quick-view-wrapper-mobile a i {
+    bottom: 0;
+    color: black;
+    display: inline-block;
+    font-size: x-large;
+    height: 22px;
+    left: 9px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 46px;
+    transform: rotate(-44deg);
+    width: 30px;
+    z-index: 2;
+}
+
+.sp-mostviewed .new-box {
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.sp-mostviewed .sale-box {
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.spmostviewed-time {
+	float:right;
+}
+
+.spmostviewed-time .item-timer .time-item {
+    float: left;
+    border: 1px solid #e3e3e3;
+    float: left;
+	padding:10px;
+	margin-left:5px;
+}
+
+.spmostviewed-time .num-time {
+    float: left;
+	margin-right:2px;
+}
+
+.spmostviewed-time .name-time {
+	float: left;
+}

@@ -1,0 +1,277 @@
+/*******************************************************
+  Footer Style
+********************************************************/
+//-- Footer Default - Footer v1
+.footer-container {
+    .footer-top {
+        background: $background;
+        padding: 30px 0;
+    }
+    .footer-center {
+        border-bottom: 1px solid #e7e7e7;
+        padding-top: 48px;
+        background: #f0f0f0;
+    }
+    
+    .footer-center-1 {
+        margin-bottom: 20px;
+        padding: 30px 0 5px;
+        .border{
+            border-bottom: 1px solid #ebebeb;
+        }
+    }
+    
+    .footer-center-2 {
+        margin-bottom: 15px;
+        .border{
+            border-bottom: 1px solid #ebebeb;
+            padding: 0 0 20px;
+        }
+    }
+    
+    .footer-bottom {
+        .border{
+            border-bottom: 1px solid #ebebeb;
+        }
+    }
+    
+    #copyright {
+        padding: 15px 0 15px;
+        font-size: 12px;
+        color: #555;
+        span{
+            color: $linkColor;
+        }
+    }
+    
+    .copyright{
+        
+    }
+    
+    .footer-payment{
+        text-align: right;
+    }
+}
+
+.footer-social {
+     text-align: right;
+     h3.block-title, .socials{display: inline-block;}
+     h3.block-title{font-size: 16px; color: #222; font-weight: bold; text-transform: uppercase; margin: 0 20px 0 0;}
+     .socials {
+          font-size: 0;
+            a {
+                display: inline-block;
+                .fa{
+                    display: inline-block;
+                    height: 30px;
+                    width: 30px;
+                    line-height: 28px;
+                    border-radius: 50%;
+                    border: 1px solid #edecec;
+                    background: #fff;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #555;
+                    &:hover {background: $background;color: #fff; border-color: $linkColor;}
+                }
+                margin-right: 10px;
+                &:last-child{margin: 0;}
+                p, span{display: none;}
+            }
+     }
+}
+
+//-- Contact Info 
+.contactinfo {
+    margin-bottom: 0;
+    h4.title-footer {
+        color: transparent;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin: 0 0 12px;
+        text-indent: -99999px;
+        background: transparent url("../../assets/img/icon/logo-footer.png") no-repeat left center;
+        height: 38px
+    }
+    p{
+        font-size: 14px;
+    }
+    .content-footer {
+       .address, .email, .phone  {
+            padding: 0 0 0 25px;
+            position: relative;
+            line-height: 22px;
+            margin-bottom: 10px;
+            label {
+                 font-size: 16px;
+                 color: #666;
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 padding: 0;
+                 margin: 0;
+                 background: transparent;
+            }
+            span {
+                    color: #555;
+                    font-size: 14px;
+                    font-weight: normal;
+                }
+            a {
+                color: #555;
+                font-size: 14px;
+                font-weight: normal;
+                &:hover {color: $linkColor;}
+            }
+            &:hover{
+               span, a {cursor: pointer;}
+               label {color: $linkColor;}
+            }
+        }
+        .email{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.footer-v1 .footer-social h3.block-title{
+    display: none;
+}
+
+//-- Footer V2
+.footer-v2.footer-container{
+    .footer-top{
+        padding: 30px 0;
+        background: #fff;
+    }
+    .footer-social{
+        width: 17%;
+        float: left;
+        padding: 0 15px;
+        margin: 7px 0 0 0;
+        h3.block-title{
+            display: none;
+        }
+        .socials a {
+            margin-right: 3px;
+            .fa{
+                color: #555;
+                font-size: 14px;
+                border: none;
+                border-radius: 0;
+                width: 22px;
+                background: transparent;
+            }
+            &:last-child{
+                margin: 0;
+            }
+        }
+    }
+    #copyright{
+        background: #222;
+        padding: 20px 0;
+    }
+    .copyright{
+        color: #fff;
+        span{
+            color: $linkColor;
+        }
+    }
+    .contactinfo {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-bottom: 15px;
+        h4.title-footer {
+            color: transparent;
+            background: transparent url("../../assets/img/icon/logo-footer-2.png") no-repeat center center;
+        }
+        .content-footer > div{
+            display: inline-block;
+            margin: 0 10px;
+            label{
+                color: $linkColor;
+            }
+        }
+        p{
+            margin-bottom: 10px;
+        }
+    }
+    
+    .footer-center{
+        background: #f2f5f5;
+        border-bottom: none;
+        padding: 18px 0 0;
+        border-top: 3px solid $linkColor;
+    }
+    
+    .footer-center-1{
+        padding: 0;
+    }
+    
+    .group-link-1, .group-link-2{
+        overflow: hidden;
+    }
+    
+    .footer-center-2{
+        margin: 0;
+        padding: 30px 0;
+    }
+    
+}
+
+//-- Footer V3
+.footer-v3.footer-container{
+    background: #fff;
+    .footer-top{
+        padding: 30px 0;
+        background: transparent;
+        border-bottom: 1px solid #ebebeb;
+    }
+    .footer-center{
+        text-align: center;
+        border-bottom: none;
+        padding: 0;
+        background: transparent;
+        border-bottom: 1px solid #ebebeb;
+    }
+    .footer-social{
+        width: 17%;
+        float: left;
+        padding: 0 15px;
+        margin: 7px 0 0 0;
+        h3.block-title{
+            display: none;
+        }
+        .socials a {
+            margin-right: 3px;
+            .fa{
+                color: #555;
+                font-size: 14px;
+                border: none;
+                border-radius: 0;
+                width: 22px;
+                background: transparent;
+            }
+            &:last-child{
+                margin: 0;
+            }
+        }
+    }
+    .footer-bottom{
+        padding: 15px 0 15px;
+        border-bottom: 1px solid #ebebeb;
+    }
+    
+    .footer-bottom-content {
+        padding: 65px 0 45px;
+        border-bottom: 1px solid #ebebeb;
+    }
+
+     #copyright {
+        background: #fff;
+        font-size: 14px;
+        padding: 20px 0;
+    }
+}

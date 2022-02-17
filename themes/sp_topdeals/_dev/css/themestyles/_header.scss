@@ -1,0 +1,280 @@
+/*******************************************************
+  Header Style
+********************************************************/
+
+.header-bonus{
+	position: relative;
+	.topbar-close {
+		position: absolute;
+		top: 0;
+		right: 20px;
+		left: auto;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		z-index: 2;
+		cursor: pointer;
+		span.button {
+			border-radius: 0 0 3px 3px;
+			position: relative;
+			display: block;
+			color: transparent;
+			text-align: center;
+			padding: 0;
+			background: #ed3f46;
+			transition: all 0.3s ease 0s;
+			&:hover{
+				background: darken(#ed3f46, 20%);
+			}
+			&:before {
+				content: "\f102";
+				font-size: 16px;
+				position: absolute;
+				top: 0;
+				left: 4px;
+				right: auto;
+				bottom: auto;
+				font-family: fontawesome;
+				color: #fff;
+				font-weight: bold;
+			}
+			&.active:before{
+			    content: "\f103";
+			}
+		}
+	}
+}
+
+.header-top{
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.topleft-content {
+    line-height: 36px;
+    height: 38px;
+    color: #2d2d2d;
+    font-size: 13px;
+	span.login a, span.register a{
+		color: $linkColor;
+		font-weight: 600;
+		&:hover{
+			color: darken($linkColor, 10%);
+		}
+	}
+}
+
+.html-cart{
+	text-align: right;
+	> div{
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+#header-cart{
+	margin-left: 18px; 
+}
+
+.header-center{
+	padding: 30px 0 28px;
+    background: #fff;
+    position: relative;
+}
+
+#index .header-bottom{
+	margin-bottom: 20px;
+}
+
+.header-bottom{
+	background: $background;
+}
+
+div.slider-banner{
+     margin-bottom: 20px;
+}
+
+#header_menu {
+    margin: 0;
+    position: static;
+}
+
+.header-ontop {
+    position: relative;
+}
+
+.custom-link-deal {
+    float: right;
+	line-height: 50px;
+	a{
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 600;
+		display: block;
+		&:hover{
+			color: #222;
+		}
+	}
+}
+
+//-- Header V2
+
+#index .header_v2 {
+	.header-bottom{
+		margin-bottom: 10px;
+	}
+	background: #f2f5f5;
+}
+
+.header_v2{
+	.header-top{
+		border-top: 5px solid #64c0d1;
+		padding: 15px 0 11px;
+		background: #fff;
+	}
+
+	.header-top .row{
+		margin: 0 -10px;
+		#header-logo{
+			padding: 0 5px;
+		}
+		.width-bonus-menu-2{
+			padding: 0 5px;
+		}
+		#header-cart{
+			padding: 0 5px;
+			margin: 0;
+		}
+	}
+	
+	.header-form {
+		position: fixed;
+		top: 160px;
+		right: 0;
+		left: auto;
+		margin: 0;
+		z-index: 9;
+		.button-header {
+			text-align: center;
+			width: 40px;
+			border-radius: 3px 0 0 3px;
+			background: $background;
+			cursor: pointer;
+			line-height: 40px;
+			color: #fff;
+			position: relative;
+			&:before {
+				position: absolute;
+				border-style: solid;
+				border-width: 9px;
+				top: 10px;
+				content: "";
+				display: block;
+				border-color: transparent transparent transparent #fff;
+				left: auto;
+				opacity: 0;
+				position: absolute;
+				right: 42px;
+				transition: all 0.3s ease-in 0s;
+				z-index: 12;
+			}
+			&.active{
+				&:before{
+					opacity: 1;
+				}
+			}
+		}
+		.dropdown-form {
+		   position: absolute;
+		   z-index: 3;
+		   right: 60px;
+		   left: auto;
+		   background: #fff;
+		   top: 0px;
+		   display: none;
+		   width: 200px;
+		   padding: 15px 20px 12px;
+		   -moz-box-shadow: 0 1px 4px 0 #c1c1c1;
+		   -webkit-box-shadow: 0 1px 4px 0 #c1c1c1;
+		   box-shadow: 0 1px 4px 0 #c1c1c1;
+		   border-radius: 3px;
+		}	
+	}
+	
+	.header-bottom{
+		background: $background;
+		z-index: 9;
+	}
+	
+	#header_search{
+		padding: 9px 15px;
+	}
+	
+	.main-menu{
+		position: static;
+		#header_menu{
+			float: left;
+		}
+		#header-cart{
+			float: right;
+		}
+	}
+}
+
+//-- Header V3
+
+#index .header_v3 .header-bottom{
+	margin-bottom: 30px;
+}
+
+.header_v3{
+	background: #f2f2f2;
+	.header-top{
+		background: $background;
+		border-bottom: none;
+	}
+	
+	div.main-contain{
+		position: relative;
+	}
+	
+	#header_menu {
+		margin: 0;
+		position: static;
+	}
+	
+	#header-logo{
+		padding: 20px 0;
+	}
+	
+	#header_search{
+		padding: 20px 15px 0;
+	}
+	
+	.header-bottom{
+		background: darken($background, 8%);
+	}
+	
+	#header-cart{
+		margin: 0;
+		padding: 20px 10px;
+		text-align: center;
+		border-left: 1px solid rgba(255,255,255,0.2);
+		border-right: 1px solid rgba(255,255,255,0.2);
+	}
+	
+	.user-info-layout-3{
+		padding: 20px 15px;
+		text-align: center;
+		border-right: 1px solid rgba(255,255,255,0.2);
+	}
+	
+	div.slider-banner{
+		margin-bottom: 0;
+	}
+
+	.slider-container{
+		padding: 0;
+		margin: 0;
+	}
+}

@@ -1,0 +1,154 @@
+/* Extension Bootstrap */
+body{background: #D9D9D9;}
+#content.bootstrap{padding: 125px 20px 20px;background : #fff; }
+.bootstrap .alert-success{background-color: #ecf4e8;}
+.bootstrap textarea{height: auto;}
+
+div.bootstrap .input-mini {width: 60px;}
+div.bootstrap .input-small {width: 90px;}
+div.bootstrap .input-medium {width: 150px;}
+div.bootstrap .input-large {width: 160px;}
+div.bootstrap .input-xlarge {width: 270px;}
+div.bootstrap .input-xxlarge {width: 530px;}
+.bootstrap .form-control, .bootstrap input[type="text"], .bootstrap input[type="search"],
+.bootstrap input[type="password"], .bootstrap textarea, .bootstrap select{color: #777;}
+.icon-AdminSP{height:18px; vertical-align:middle !important;  background:url(../../../logo.png) no-repeat ;display:inline-block; background-size:100% auto;}
+
+.help-block{position: relative;z-index: 1;	}
+.unit-px+.help-block:after{
+    background: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 0 3px 3px 0;
+    color: #666;
+    content: "px";
+    font-style: normal;
+    height: 27px;
+    left: 208px;
+    position: absolute;
+    text-align: center;
+    top: -32px;
+    width: 30px;
+}
+.important-button {
+    font-weight: bold;
+    background: #fff;
+    padding: 5px 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.35);
+}
+
+.warning-text {color: #da3b44;font-size: 13px;}
+
+.success-text {color: #2a803e;font-size: 13px;}
+.bootstrap input[type="text"].text_Selectors{width:400px;height:50px;
+-ms-word-break: break-all;
+     word-break: break-all;
+     word-break: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;}
+
+/* Layout */
+.spthemeconfigurator{padding-left: 250px; background: white;border:solid 1px #ddd;}
+.heading-section{color: #fff; overflow: hidden;}
+#configuration_form .panel-footer {position:absolute;margin:0;bottom:0;right:0;width: calc(100% + 250px);}
+.heading-section .module-title{float: left;width: 250px; background: #383F4C;padding: 12px 20px; font-size: 14px;height: 48px;box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.1) inset;}
+.heading-section .buttons_section{background: #F1F1F1;padding: 10px 15px;overflow: hidden;height: 48px;box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.1) inset;}
+.footer-section{ color: #999; overflow: hidden; background: #2E3138;border-top: 1px solid #565D6B;padding:  10px 20px;}
+.footer-section span{float: right;margin-top: 5px;}
+#configuration_form  .form-horizontal .form-group {margin:0;}
+
+
+#sp-config-tabs {
+    float: left;
+    position: absolute;
+    width: 250px;
+    z-index: 50;
+    padding: 0;
+	margin:0;
+}
+
+#sp-config-tabs .tab {
+    display: block;
+    color: #666;
+    font-size: 13px;
+    padding: 13px 20px;
+    cursor: pointer;
+	border-bottom:solid 1px #ddd;
+	border-right:solid 1px #ddd;
+    position: relative;
+    z-index: 2;
+	transition:0.3s all ease 0s;
+}
+#sp-config-tabs .tab:before {content:"";position:absolute;left:0;top:50%;bottom:50%;width:2px;transition:0.3s all ease 0s;background: #92D097;}
+
+#sp-config-tabs .tab.active {
+	border-right:solid 1px #fff;
+	color:#92D097;
+}
+#sp-config-tabs .tab:hover {
+	color:#92D097;
+}
+#sp-config-tabs .tab.active:before,
+#sp-config-tabs .tab:hover:before {
+	top:0;bottom:0;
+}
+.bootstrap .img-view{
+    float: right; margin-right: 50px;margin-top: -40px;width: 200px;
+   
+}
+.bootstrap .product_rating{height: 32px; background: url(../../img/tp_product_rating.png) no-repeat;}
+.bootstrap .share_buttons{height: 32px; background: url(../../img/tp_share-buttons.png) no-repeat;}
+.bootstrap .product_colorpicker{height: 33px; background: url(../../img/colorpicker.png) no-repeat;}
+.bootstrap .product_availability{height: 50px; background: url(../../img/availability.png) no-repeat;}
+.bootstrap .product_quickview{height: 42px; background: url(../../img/quickview.png) no-repeat;}
+.bootstrap .category_viewtype{height: 34px; background: url(../../img/viewtype.png) no-repeat;}
+
+/*Options Fonts*/
+.fontshow{border: 1px solid #eee; position: absolute;left: 230px;top: -1px;display: inline-block;padding: 3px 10px; font-size: 16px;}
+.selectorshow{color: #959595;  position: absolute;left: 230px;top: 0;display: inline-block;padding: 5px 10px; }
+
+/*Options Layout*/
+.parttern_wrap{width: 50px;height: 50px;display: inline-block; margin-right: 3px;overflow: hidden;position: relative;}
+.parttern_wrap > span{position: absolute;background: rgba(255,255,255,0.8); z-index: 2; padding: 2px 5px;}
+#smartpostperpage {width:19.5%;}
+#configuration_form .panel-heading {border-bottom:solid 1px #ddd !important;}
+#configuration_form  option {padding: 2px 10px;}
+#configuration_form .product_layout, #configuration_form .category_layout {width: 520px !important;}
+
+/*Payment Option*/
+.bootstrap .icon-pay    {width: 26px;height: 16px; margin-left: 10px;margin-bottom: 0; float: right;}
+.bootstrap .am_exp  {background: url(../../img/payment_icons/am_exp.png) no-repeat;}
+.bootstrap .cirrus      {background: url(../../img/payment_icons/cirrus.png) no-repeat;}
+.bootstrap .direct      {background: url(../../img/payment_icons/direct.png) no-repeat;}
+.bootstrap .discover    {background: url(../../img/payment_icons/discover.png) no-repeat;}
+.bootstrap .maestro     {background: url(../../img/payment_icons/maestro.png) no-repeat;}
+.bootstrap .mastercard  {background: url(../../img/payment_icons/mastercard.png) no-repeat;}
+.bootstrap .paypal      {background: url(../../img/payment_icons/paypal.png) no-repeat;}
+.bootstrap .solo        {background: url(../../img/payment_icons/solo.png) no-repeat;}
+.bootstrap .pay_switch      {background: url(../../img/payment_icons/switch.png) no-repeat;}
+.bootstrap .visa        {background: url(../../img/payment_icons/visa.png) no-repeat;}
+.bootstrap .pay_wu          {background: url(../../img/payment_icons/wu.png) no-repeat;}
+
+.bootstrap .btn.save-button {background: #8BC954;color: white;border-color: #72AA3D; box-shadow: none;}
+
+/* Button Custom */
+
+#content.bootstrap .spthemeconfigurator .panel{border-radius: 0;border: none; box-shadow: none;margin: 0;display:none;padding-bottom:125px;}
+#content.bootstrap .spthemeconfigurator .panel:first-child{display:block;}
+	#content.bootstrap .spthemeconfigurator .panel.active{display:block;}
+    #content.bootstrap .spthemeconfigurator .panel .panel-heading{margin: -10px 0 15px; padding: 0;}
+    #content.bootstrap .spthemeconfigurator .panel .form-wrapper{min-height:330px;}
+#SP_customCSS,
+#SP_customJS,
+#SP_product_customtab {
+    min-height: 200px!important; width:85%;
+}
+#SP_wellcomeMsg_1, #SP_loggedMsg_1, #SP_copyRight_1 {width: 50%;}
+
+/* Large devices Desktops  */
+@media (min-width: 1600px) {
+    
+    #content.bootstrap .spthemeconfigurator .panel{min-height: 700px;}
+	#nav-sidebar ul.menu li.maintab>a.title i.icon-AdminSP{width:28px;height:28px;margin: 0 6px;}
+
+}

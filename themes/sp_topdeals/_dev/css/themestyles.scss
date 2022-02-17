@@ -1,0 +1,28 @@
+/*******************************************************
+  Import SCSS File Custom Theme
+********************************************************/
+//-- Variables Use
+@import "partials/_color_variables";
+
+//-- CSS Files Need To Use
+@import "themestyles/_breadcumb";
+@import "themestyles/_category";
+@import "themestyles/_footer";
+@import "themestyles/_global";
+@import "themestyles/_content";
+@import "themestyles/_header";
+@import "themestyles/_presmodule";
+@import "themestyles/_product";
+@import "themestyles/_product_list";
+@import "themestyles/_quickview";
+@import "themestyles/_spmodule";
+@import "themestyles/_colormodule";
+@import "themestyles/_smartblog";
+@import "themestyles/_zoom";
+@import "themestyles/_cart";
+@import "themestyles/_contact";
+@import "themestyles/_cms";
+@import "themestyles/_system";
+
+//-- Your Custom CSS File
+@import "themestyles/custom";

@@ -1,0 +1,157 @@
+
+
+/* 4.Small devices Tablets
+================================================== */
+@media (max-width: 991px) {
+	#header_menu{
+		background: #000;
+	}
+	
+	.header_v1{
+		#header-logo{
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.header-bottom{
+			padding-top: 70px;
+			background: transparent;
+			.container{
+				position: relative;
+			}
+		}
+		#header_menu{
+			margin-top: -120px;
+		}
+		.slider-container{
+			margin-bottom: 20px;
+		}
+	}
+	
+	div.custom-link-deal a:hover{
+		color: #e4151e;
+	}
+	
+	//-- Layout 2
+	.header_v2{
+		#header_menu{
+		   margin: 0;
+		}
+		#header-cart{
+			margin: 5px 0;
+		}
+	}
+	
+	//-- Product Detail
+	#product.layout-left-column, #product.layout-right-column {
+		.pb-left-column, .pb-right-column{
+			width: 100%;
+		}
+	}
+	
+	.product-page .images-container.horizontal-thumbnails .js-qv-mask{
+		margin-bottom: 30px;
+	}
+	
+	.footer-social{
+		text-align: center;
+		h3.block-title {
+			margin: 0 0 20px;
+			display: block;
+		}
+	}
+	
+	.product-page h1.product-name{
+		margin: 30px 0 15px;
+	}
+	.product-page .images-container.vertical-thumbnails .js-qv-mask{
+        top: 30px;
+    }
+	
+	//-- Product Listing
+	#category .product-list--list .product-miniature .product-container .left-block{
+		margin-bottom: 30px;
+	}
+	
+	//-- 404
+	#wrapper #content-wrapper .page-not-found{
+		h1{
+			font-size: 32px;
+		}
+		p{
+			font-size: 13px;
+			margin: 0 0 15px;
+		}
+		form{
+			width: 80%;
+			button{
+				padding: 0 15px;
+			}
+		}
+	}
+	
+	.about-wrap div.about-us {
+		.about-text h2{
+			font-size: 22px;
+		}
+		.about-image{
+			margin-bottom: 20px;
+		}
+	}
+	
+	
+	.lang-rtl{
+		div.footer-social{
+			text-align: center;
+			h3.block-title {
+				margin: 0 0 20px;
+			}
+		}
+		div div.slider-container{
+			right: 0;
+			left: auto;
+		}
+	}
+	
+	.footer-v2.footer-container{
+		.group-link-1, .group-link-2{
+			overflow: visible;
+		}
+		.footer-social{
+			width: 100%;
+			float: none;
+		}
+	}
+	
+	//-- Layout 3
+	
+	.header_v3{
+		#header_menu{
+			background: transparent;
+		}
+		.spblockcart .cart-content{
+			display: none;
+		}
+		.slider-layout-3, .deal-layout-3{
+			margin-bottom: 30px;
+		}
+		.spcurrency-block, .splanguage-block{
+			height: 50px; line-height: 48px;
+		}
+		
+	}
+	
+	.footer-v3.footer-container{
+		.footer-social{
+			width: 100%;
+			float: none;
+		}
+	}
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		width: auto !important;
+		max-width: none;
+	}
+}

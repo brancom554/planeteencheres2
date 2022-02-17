@@ -1,0 +1,63 @@
+/*******************************************************
+    SP Deals Style
+********************************************************/
+.sp-deal .product-listing {
+  margin-bottom: 50px; }
+  .sp-deal .product-listing .product-info {
+    text-align: left;
+    padding: 0; }
+    .sp-deal .product-listing .product-info .item-time .label-timer {
+      color: #ff5555;
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+    .sp-deal .product-listing .product-info .item-time .item-timer {
+      font-size: 0;
+      border-bottom: solid 1px #eee;
+      padding-bottom: 15px;
+      margin-bottom: 20px; }
+      .sp-deal .product-listing .product-info .item-time .item-timer .time-item {
+        display: inline-block;
+        padding: 0 18px 0 0;
+        margin: 0 12px 0 0;
+        position: relative;
+        text-align: center; }
+        .sp-deal .product-listing .product-info .item-time .item-timer .time-item:after {
+          content: ":";
+          font-size: 22px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: block;
+          color: #222; }
+        .sp-deal .product-listing .product-info .item-time .item-timer .time-item.time-sec {
+          padding: 0;
+          margin: 0; }
+          .sp-deal .product-listing .product-info .item-time .item-timer .time-item.time-sec:after {
+            display: none; }
+        .sp-deal .product-listing .product-info .item-time .item-timer .time-item .num-time {
+          color: #222222;
+          font-size: 22px;
+          font-weight: 500;
+          padding-bottom: 7px; }
+        .sp-deal .product-listing .product-info .item-time .item-timer .time-item .name-time {
+          color: #999999;
+          font-size: 12px; }
+    .sp-deal .product-listing .product-info h5.product-title a {
+      font-size: 18px; }
+    .sp-deal .product-listing .product-info .product-description {
+      line-height: 22px;
+      margin-bottom: 20px; }
+      .sp-deal .product-listing .product-info .product-description p {
+        margin: 0; }
+    .sp-deal .product-listing .product-info .product-price-and-shipping {
+      margin-bottom: 30px; }
+      .sp-deal .product-listing .product-info .product-price-and-shipping .regular-price {
+        padding: 0; }
+      .sp-deal .product-listing .product-info .product-price-and-shipping .price {
+        padding: 0 5px;
+        font-size: 20px; }
+.sp-deal .owl-controls {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 4; }

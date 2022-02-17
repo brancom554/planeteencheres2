@@ -1,0 +1,25 @@
+
+// --* Module Templates *------------------
+// ----------------------------------------
+/*   1.HD devices Desktops     	  ( Devices =1450px)
+ *   1.Large devices Desktops     (1200px = Devices = 1400px)
+ *   2.Medium devices Desktops    (980px =  Devices  = 1024px)
+ *   3.Small devices Tablets      (767px =  Devices  = 979px)
+ *   4.Extra small devices Phones ( Devices <767px)
+ */
+
+//Large devices Desktops magentech.com 123
+@import "responsive/responsive-1200px-min";
+
+//Medium devices Desktops
+@import "responsive/responsive-992px-1200px";
+
+//Small devices Tablets 
+@import "responsive/responsive-768px-992px";
+
+//Extra small devices Phones
+@import "responsive/responsive-768px-max";
+
+//Extra small devices Phones
+@import "responsive/responsive-480px-max";
+

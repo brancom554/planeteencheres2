@@ -1,0 +1,32 @@
+/*******************************************************
+  Cart Style
+********************************************************/
+
+#cart .cart-container .text-xs-right a.remove-from-cart:hover i.material-icons{
+     color: $linkColor;
+}
+
+//-- Popup Cart
+div#blockcart-modal {
+     .modal-content {border: none;}
+     .modal-header {background: $background;
+          .close {padding: 0;color: #fff;font-size: 20px;opacity: 1;text-shadow: none;
+               &:hover {color: #ff5555;}
+          }
+     }
+     .modal-body {padding: 30px;background: #fff;
+          .product-image-container {
+               .product-image {width: 190px;}
+          }
+          .product-name {font-weight: 500;padding-bottom: 12px;color: #555;}
+          .product-price {color: #ff5555;font-size: 18px;font-weight: 600;display: block;padding-bottom: 15px;}
+          span,p {padding: 10px 0;font-weight: 400;margin: 0;font-size: 14px;
+               strong {font-weight: 600;}
+          }
+          .cart-products-count {padding-bottom: 12px;}
+          .cart-content {padding: 0 15px;}
+          .cart-content .btn {margin: 30px 0 0;background: $background;color: #fff;box-shadow: none;line-height: 40px;padding: 0 15px;transition: 0.3s all ease 0s;
+               &:hover {background: darken($background,10%);}
+          }
+     }
+}

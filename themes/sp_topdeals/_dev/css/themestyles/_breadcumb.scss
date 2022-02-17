@@ -1,0 +1,66 @@
+/*******************************************************
+  Breadcumb Style
+********************************************************/
+.breadcrumb {
+    margin: 0 0 30px;
+    .breadcrumb-container{
+        padding: 58px 0;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+        &:before {
+            position: absolute;
+            background: url(../img/icon/breadcumb.jpg) no-repeat center center;
+            height: 100%;
+            width: 200%;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: -50%;
+        }
+        .title-page{
+                color: #fff;
+                position: relative;
+                text-transform: capitalize;
+                line-height: 25px;
+                display: block;
+                font-weight: 600;
+                font-size: 26px;
+                margin-bottom: 13px;
+        }
+        ul {
+            margin: 0 -10px;padding: 0;
+            li {
+                display: inline-block;
+                position: relative;
+                padding: 0 10px;
+                font-size: 12px;
+                a{
+                    color: #eee;
+                    &:hover{
+                        color: $linkColor;
+                    }
+                }
+                &:after {
+                    content: "\|";
+                    display: block;
+                    height: 8px;
+                    width: 1px;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                &:last-child{
+                    a{
+                        color: $linkColor;
+                    }
+                    &:after {display: none;}
+                }
+            }
+        }
+    }
+}
+

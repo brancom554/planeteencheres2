@@ -1,0 +1,100 @@
+/*******************************************************
+  SP FooterLinks Module Style
+********************************************************/
+.spfooterlinks {
+	h4.title-footer {
+		color: #222;
+		font-weight: bold;
+		font-size: 14px;
+		text-transform: uppercase;
+		margin: 0 0 10px;
+		padding: 10px 0 10px;
+		position: relative;
+		border-bottom: 1px solid #ebebeb;
+		&:before{
+			content: "";
+			position: absolute;
+			height: 1px;
+			width: 40px;
+			left: 0;
+			right: auto;
+			top: auto;
+			bottom: -1px;
+		}
+	}
+	ul.links {padding: 0;
+		li {
+			a {
+				color: #555;
+				font-size: 14px;
+				font-weight: normal;
+				display: block;
+				padding: 2px 13px;
+				position: relative;
+				&:before {
+					content: "";
+					font-family: fontawesome;
+					display: block;
+					position: absolute;
+					height: 3px;
+					width: 3px;
+					border-radius: 50%;
+					background: #555555;
+					top: 12px;
+					left: 0;
+				}
+			}
+		}
+	}
+}
+
+//-- Layout 2
+	.footer-v2.footer-container{
+		.spfooterlinks {
+			margin-bottom: 7px;
+			h4.title-footer{
+				border-bottom: 1px solid #c2c6c6;
+			}
+		}
+	}
+	
+//-- Layout 3
+	.footer-v3.footer-container{
+		.spfooterlinks {
+			h4.title-footer{
+				border-bottom: none;
+				font-size: 14px;
+				padding-bottom: 18px;
+				margin-bottom: 12px;
+				&:before{
+					height: 2px;
+				}
+			}
+		}
+	}
+
+//-- RESPONSIVE
+
+@media (min-width: 1200px){
+	
+}
+
+@media (min-width: 991px){
+	.footer-v2.footer-container{
+		.spfooterlinks {
+			width: 20%;
+		}
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	
+}
+
+@media (max-width: 767px){
+	div.spfooterlinks{
+		margin-bottom: 15px;
+		width: 100%;
+	}
+}
+

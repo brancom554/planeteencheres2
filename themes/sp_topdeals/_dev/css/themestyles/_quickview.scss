@@ -1,0 +1,28 @@
+/*******************************************************
+  Quickview Style
+********************************************************/
+div.quickview {
+     .modal-content {border: none;border-radius: 0;}
+     .modal-header {position: absolute;top: 0;right: 0;z-index: 9;}
+     .product-page .images-container .product-cover .layer {display: none;}
+     .product-page .images-container.vertical-thumbnails .js-qv-mask {height: 435px;overflow: hidden;top: 0;}
+     .product-page .images-container.horizontal-thumbnails .js-qv-mask{
+          margin: 0;
+          padding:0 25px;
+          .product-images{
+               min-height: 100px;
+               text-align: center;
+          }
+          .thumb-container {
+               width: 73px;
+               display: inline-block;
+               margin-bottom: 30px;
+          }
+     }
+     .product-page .images-container.horizontal-thumbnails{
+          .slick-prev, .slick-next{
+               top: 32%;
+          }
+     }
+}
+
